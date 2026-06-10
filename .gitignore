@@ -1,0 +1,35 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
+
+# AI 编程参考文档（不公开）
+CLAUDE.md
+
+# Backend
+backend/database/
+backend/database/*
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/node_modules/
+backend/config/cert.pem
+backend/config/key.pem
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Wrangler
+.wrangler/
+.dev.vars
+
+database/

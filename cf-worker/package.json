@@ -1,0 +1,12 @@
+{
+  "name": "cloud-drive-worker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute cloud-drive-db --file=./schema.sql",
+    "db:remote": "wrangler d1 execute cloud-drive-db --remote --file=./schema.sql"
+  },
+  "dependencies": {}
+}
